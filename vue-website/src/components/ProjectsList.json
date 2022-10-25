@@ -1,0 +1,13 @@
+{
+    "0": {
+        "index": "0",
+        "name": "Emotech",
+        "skills": ["figma", "vue.js", "lumion", "premiere pro"],
+        "imgUrl":"../assets/backgrounds/1.png"
+    },
+    "1": {
+        "index": "1",
+        "name": "MILA.HEALTH",
+        "skills": ["blender"]
+    }
+}
