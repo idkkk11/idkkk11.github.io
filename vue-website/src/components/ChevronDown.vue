@@ -10,6 +10,6 @@ export default {
 
 <style scoped>
 .chevron-down {
-    width: 2.2vw;
+    width: 1.5vw;
 }
 </style>

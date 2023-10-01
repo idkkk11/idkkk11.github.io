@@ -5,12 +5,14 @@
                 <source src="@/assets/videos/websiteLanding.mp4" type="video/mp4" />
             </video>
         </div>
-        <div class='bottom-button'>
+        <!-- <div class='bottom-button' @click="scrollDown"> -->
+        <a href="#all-projects" v-smooth-scroll="{ duration: 1000, updateHistory: false }" class='bottom-button'>
             <div class='bottom-text'>
                 projects
             </div>
             <ChevronDown></ChevronDown>
-        </div>
+        </a>
+        <!-- </div> -->
     </div>
 </template>
 
@@ -20,12 +22,25 @@
 import ChevronDown from '@/components/ChevronDown.vue';
 
 
+
+
 export default {
   name: 'LandingArea',
   components: {
     // HelloWorld
     ChevronDown
-}
+},
+    methods: {
+        scrollDown() {
+            var my_element = document.getElementById("all-projects");
+
+            my_element.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+                inline: "nearest"
+            })
+        }
+    },
 }
 </script>
 
@@ -40,6 +55,8 @@ export default {
     margin: 0;
     box-sizing: border-box;
     position: relative;
+
+    text-decoration: none;
 }
 
 .landing-video {

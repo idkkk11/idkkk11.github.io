@@ -14,11 +14,17 @@
           </router-link>
         </li>
         <li class='navigation-items'>
+          <a href="https://www.linkedin.com/in/michaelwidjaya/" target="_blank" rel="noopener noreferrer">
             linkedin
+          </a>
         </li>
         <li class='navigation-items'>
-            github
+          <a href="https://github.com/idkkk11" target="_blank"> github </a>
         </li>
+    </div>
+
+    <div class="hamburger-navigation">
+      <SidebarMenu></SidebarMenu>
     </div>
 
   </div>
@@ -43,14 +49,14 @@ body {
   width: 100%;
 }
 
-nav a {
+/* nav a {
   font-weight: bold;
   color: #2c3e50;
 }
 
 nav a.router-link-exact-active {
   color: #42b983;
-}
+} */
 
 .logo {
     font-family: 'Montserrat';
@@ -87,6 +93,61 @@ nav a.router-link-exact-active {
     font-size: 1vw;
     color: #FFFFFF;
 }
+
+a { 
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navigation-items {
+  display: inline-block;
+  position: relative;
+  color: #FFFFFF;
+}
+
+.navigation-items::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navigation-items:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Media query for landscape orientation */
+@media screen and (orientation: landscape) {
+  .hamburger-navigation {
+    display: none; /* Hide hamburger navigation */
+  }
+}
+
+/* Media query for portrait orientation */
+@media screen and (orientation: portrait) {
+  .navigation-buttons {
+    display: none; /* Hide navigation buttons */
+  }
+}
+
 </style>
+
+<script>
+import SidebarMenu from './components/SidebarMenu.vue';
+// import SidebarMenu from './components/SidebarMenu.vue';
+
+export default {
+    components: {
+    SidebarMenu
+}
+}
+</script>
 
 

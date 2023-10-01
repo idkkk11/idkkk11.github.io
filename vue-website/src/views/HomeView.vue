@@ -1,21 +1,24 @@
 <template>
   <div class="segments">
     <LandingArea/>
-    <AllProjects :projectsList="projectsList" />
+    <!-- <AllProjects :projectsList="projectsList" /> -->
+    <MyProjects :projectsList="projectsList" />
   </div>
 </template>
 
 <script>
 import LandingArea from '@/components/LandingArea.vue'
 import projectsList from '@/components/ProjectsList.json'
-import AllProjects from '../components/AllProjects.vue'
+// import AllProjects from '../components/AllProjects.vue'
+import MyProjects from '@/components/MyProjects.vue'
 
 export default {
   name: 'HomeView',
   components: {
     LandingArea,
-    AllProjects
-  },
+    // AllProjects,
+    MyProjects
+},
   data () {
     return {
       projectsList: []

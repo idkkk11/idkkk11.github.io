@@ -1,13 +1,44 @@
 {
     "0": {
         "index": "0",
-        "name": "Emotech",
-        "skills": ["figma", "vue.js", "lumion", "premiere pro"],
-        "imgUrl":"../assets/backgrounds/1.png"
+        "name": "AI Research Paper",
+        "skills": "Voiceflow | JavaScript | Alexa Developer Console | SPSS | Python",
+        "imgUrl":"../assets/backgrounds/1.png",
+        "route":"va"
     },
     "1": {
         "index": "1",
-        "name": "MILA.HEALTH",
-        "skills": ["blender"]
+        "name": "3DLabs",
+        "skills": "Three.js | Figma | JavaScript | CSS | HTML",
+        "imgUrl":"../assets/backgrounds/1.png",
+        "route": "3d"
+    },
+    "2": {
+        "index": "2",
+        "name": "Emotech",
+        "skills": "Vue.js | Figma | Google Analytics | Python | Premiere Pro",
+        "imgUrl":"../assets/backgrounds/3.png",
+        "route":"emotech"
+    },
+    "3": {
+        "index": "3",
+        "name": "The Quad",
+        "skills": "InDesign | Illustrator | Lumion | SketchUp | AutoCAD",
+        "imgUrl":"../assets/backgrounds/4.png",
+        "route":"quad"
+    },
+    "4": {
+        "index": "4",
+        "name": "Lesku",
+        "skills": "Adobe XD",
+        "imgUrl":"../assets/backgrounds/5.png",
+        "route":"lesku"
+    },
+    "5": {
+        "index": "5",
+        "name": "Philips Easy Grip",
+        "skills": "Illustrator | SolidWorks",
+        "imgUrl":"../assets/backgrounds/5.png",
+        "route":"philips"
     }
 }
