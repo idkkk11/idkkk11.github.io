@@ -12,7 +12,7 @@
 
           <p>Beyond that, I love photography and cooking!</p>
 
-          <p>Find my CV here and thanks for visiting my site.</p>
+          <p>Thanks for visiting my site.</p>
         </div>
         <div class="about-text-bottom">
           <div class="skill-row">

@@ -12,7 +12,7 @@ body {
 
 .content {
     display: flex;
-    padding: 15vh 0;
+    padding: 15vh 0 0 0;
     width: 55vw;
     flex-direction: column;
     justify-content: center;

@@ -22,6 +22,7 @@
         <div class="bodyText">
             The app was designed to be simple, intuitive, feature-packed to make sure users were interested in using it.
         </div>
+        <FooterSection></FooterSection>
       </div>
     </div>
 </template>
@@ -29,3 +30,12 @@
 <style>
    @import  '/src/assets/style.css';
 </style>
+
+<script>
+import FooterSection from '@/components/FooterSection.vue';
+export default {
+    components: {
+    FooterSection
+}
+}
+</script>
