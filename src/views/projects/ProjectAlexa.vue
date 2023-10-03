@@ -6,7 +6,7 @@
             Voiceflow, JavaScript, Alexa Developer Console, SPSS, Python.
         </div>
         <div class="bodyText">
-            This is a user research project I did for my Master’s Thesis. I looked into identifying the trust drivers of Generative AI based voice assistant systems. Powering a VA system with a Large Language Model (LLM) is expected following the high potentials in improving user experience.
+            HELLOThis is a user research project I did for my Master’s Thesis. I looked into identifying the trust drivers of Generative AI based voice assistant systems. Powering a VA system with a Large Language Model (LLM) is expected following the high potentials in improving user experience.
         </div>
         <img :src="require('@/assets/images/va/2.png')" class="project-images"/>
         <div class="bodyText">
