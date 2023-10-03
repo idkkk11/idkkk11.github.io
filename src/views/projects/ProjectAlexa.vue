@@ -26,7 +26,7 @@
             for the paper.
         </div>
         <iframe width="1280" height="720" src="https://www.figma.com/embed?embed_host=share&amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2FgYD0IW252RhehDKR1KUQXR%2FMaster's-Project-Plan%3Fpage-id%3D520%253A3597%26type%3Ddesign%26node-id%3D520-3600%26viewport%3D805%252C932%252C0.03%26scaling%3Dscale-down%26starting-point-node-id%3D520%253A3600%26mode%3Ddesign" allowfullscreen class="figmaIframe"></iframe>
-        
+        <FooterSection></FooterSection>
       </div>
     </div>
 </template>
@@ -37,3 +37,12 @@
         width: 80%;
     }
 </style>
+
+<script>
+import FooterSection from '@/components/FooterSection.vue';
+export default {
+    components: {
+    FooterSection
+}
+}
+</script>

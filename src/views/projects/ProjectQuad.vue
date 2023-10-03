@@ -28,6 +28,7 @@
             <a href="https://drive.google.com/file/d/17ppnKx60iAMIpBUKedJSod8BWZTTfLsA/view?usp=drive_link" target=_blank >Click here</a> 
             to find the full PDF of the book.
         </div>
+        <FooterSection></FooterSection>
       </div>
     </div>
 </template>
@@ -35,3 +36,12 @@
 <style>
    @import  '/src/assets/style.css';
 </style>
+
+<script>
+import FooterSection from '@/components/FooterSection.vue';
+export default {
+    components: {
+    FooterSection
+}
+}
+</script>

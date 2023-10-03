@@ -19,6 +19,7 @@
         <div class="bodyText">
             For the projects, I created user journeys and conducted usability tests for the product.
         </div>
+        <FooterSection></FooterSection>
       </div>
     </div>
 </template>
@@ -26,3 +27,12 @@
 <style>
     @import  '/src/assets/style.css';
 </style>
+
+<script>
+import FooterSection from '@/components/FooterSection.vue';
+export default {
+    components: {
+    FooterSection
+}
+}
+</script>

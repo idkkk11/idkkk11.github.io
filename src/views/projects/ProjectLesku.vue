@@ -19,6 +19,7 @@
         <div class="bodyText">
             The Adobe XD ecosystem was utilised to show users how the interface would look like on a smartphone. The invaluable feedback was used to iteratively design the UI of the application for the best design.
         </div>
+        <FooterSection></FooterSection>
       </div>
     </div>
 </template>
@@ -26,3 +27,12 @@
 <style>
     @import  '/src/assets/style.css';
 </style>
+
+<script>
+import FooterSection from '@/components/FooterSection.vue';
+export default {
+    components: {
+    FooterSection
+}
+}
+</script>
